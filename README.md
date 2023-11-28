@@ -96,7 +96,7 @@ class StudentManagementSystem {
         // Will take all as an input
         scan.nextLine();
         
-        System.out.println("Enter the courses you want to take: ");
+        System.out.println("Enter the courses you want to take (Separated by a space only): ");
         String input = scan.nextLine();
         String[] inputArray = input.split(" ");
         Student student = new Student(name, age, studentid);
